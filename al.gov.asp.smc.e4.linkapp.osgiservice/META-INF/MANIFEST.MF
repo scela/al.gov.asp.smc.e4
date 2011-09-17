@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgiservice
+Bundle-SymbolicName: al.gov.asp.smc.e4.linkapp.osgiservice
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: al.gov.asp.smc.e4.linkapp.osgiservice.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.osgi.framework.console;version="1.0.0",
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.3.1"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/*.xml
+Export-Package: outer

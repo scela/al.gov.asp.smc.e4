@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_EosNALJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_EosNAbJSEeCGw7Q6OvVGGQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_EosNF7JSEeCGw7Q6OvVGGQ" label="al.gov.asp.smc.e4.linkapp" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_Eos0F7JSEeCGw7Q6OvVGGQ">
+      <children xsi:type="advanced:Perspective" xmi:id="_Eos0GLJSEeCGw7Q6OvVGGQ">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_Eos0GbJSEeCGw7Q6OvVGGQ">
+          <children xsi:type="basic:PartStack" xmi:id="_Eos0GrJSEeCGw7Q6OvVGGQ"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_Eos0ELJSEeCGw7Q6OvVGGQ" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_Eos0EbJSEeCGw7Q6OvVGGQ" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Eos0ErJSEeCGw7Q6OvVGGQ" label="Open" iconURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/icons/sample.gif" command="_EosNDrJSEeCGw7Q6OvVGGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Eos0E7JSEeCGw7Q6OvVGGQ" label="Save" iconURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/icons/save_edit.gif" command="_EosNEbJSEeCGw7Q6OvVGGQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Eos0FLJSEeCGw7Q6OvVGGQ" label="Quit" command="_EosNCrJSEeCGw7Q6OvVGGQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_Eos0FbJSEeCGw7Q6OvVGGQ" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Eos0FrJSEeCGw7Q6OvVGGQ" label="About" command="_EosNFLJSEeCGw7Q6OvVGGQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_Eos0G7JSEeCGw7Q6OvVGGQ">
+      <children xsi:type="menu:ToolBar" xmi:id="_EotbILJSEeCGw7Q6OvVGGQ" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_EotbIbJSEeCGw7Q6OvVGGQ" iconURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/icons/sample.gif" command="_EosNDrJSEeCGw7Q6OvVGGQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_EotbIrJSEeCGw7Q6OvVGGQ" iconURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/icons/save_edit.gif" command="_EosNEbJSEeCGw7Q6OvVGGQ"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_EosNC7JSEeCGw7Q6OvVGGQ" contributionURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/al.gov.asp.smc.e4.linkapp.handlers.QuitHandler" command="_EosNCrJSEeCGw7Q6OvVGGQ"/>
+  <handlers xmi:id="_EosND7JSEeCGw7Q6OvVGGQ" contributionURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/al.gov.asp.smc.e4.linkapp.handlers.OpenHandler" command="_EosNDrJSEeCGw7Q6OvVGGQ"/>
+  <handlers xmi:id="_EosNErJSEeCGw7Q6OvVGGQ" contributionURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/al.gov.asp.smc.e4.linkapp.handlers.SaveHandler" command="_EosNEbJSEeCGw7Q6OvVGGQ"/>
+  <handlers xmi:id="_EosNFbJSEeCGw7Q6OvVGGQ" contributionURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/al.gov.asp.smc.e4.linkapp.handlers.AboutHandler" command="_EosNFLJSEeCGw7Q6OvVGGQ"/>
+  <bindingTables xmi:id="_EosNDLJSEeCGw7Q6OvVGGQ" bindingContext="_EosNAbJSEeCGw7Q6OvVGGQ">
+    <bindings xmi:id="_EosNDbJSEeCGw7Q6OvVGGQ" keySequence="Ctrl+Q" command="_EosNCrJSEeCGw7Q6OvVGGQ"/>
+    <bindings xmi:id="_EosNELJSEeCGw7Q6OvVGGQ" keySequence="Ctrl+O" command="_EosNDrJSEeCGw7Q6OvVGGQ"/>
+    <bindings xmi:id="_EosNE7JSEeCGw7Q6OvVGGQ" keySequence="Ctrl+S" command="_EosNEbJSEeCGw7Q6OvVGGQ"/>
+    <bindings xmi:id="_EosNFrJSEeCGw7Q6OvVGGQ" keySequence="Ctrl+A" command="_EosNFLJSEeCGw7Q6OvVGGQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_EosNAbJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_EosNArJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_EosNA7JSEeCGw7Q6OvVGGQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_EosNCrJSEeCGw7Q6OvVGGQ" elementId="al.gov.asp.smc.e4.linkapp.quitCommand" commandName="quitCommand"/>
+  <commands xmi:id="_EosNDrJSEeCGw7Q6OvVGGQ" elementId="al.gov.asp.smc.e4.linkapp.openCommand" commandName="openCommand"/>
+  <commands xmi:id="_EosNEbJSEeCGw7Q6OvVGGQ" elementId="al.gov.asp.smc.e4.linkapp.saveCommand" commandName="saveCommand"/>
+  <commands xmi:id="_EosNFLJSEeCGw7Q6OvVGGQ" elementId="al.gov.asp.smc.e4.linkapp.aboutCommand" commandName="aboutCommand"/>
+  <addons xmi:id="_EosNBLJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="platform:/plugin/org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_EosNBbJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_EosNBrJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_EosNB7JSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_EosNCLJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_EosNCbJSEeCGw7Q6OvVGGQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="platform:/plugin/org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
