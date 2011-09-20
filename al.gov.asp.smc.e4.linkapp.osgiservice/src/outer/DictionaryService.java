@@ -34,6 +34,8 @@ public interface DictionaryService {
     public String[] getLanguages();
     
     public String getWelcomeMessage();
+    
+    public boolean isSaveAllowed();
 
 
 }

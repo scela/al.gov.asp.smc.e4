@@ -4,7 +4,9 @@
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_Eos0F7JSEeCGw7Q6OvVGGQ">
       <children xsi:type="advanced:Perspective" xmi:id="_Eos0GLJSEeCGw7Q6OvVGGQ">
         <children xsi:type="basic:PartSashContainer" xmi:id="_Eos0GbJSEeCGw7Q6OvVGGQ">
-          <children xsi:type="basic:PartStack" xmi:id="_Eos0GrJSEeCGw7Q6OvVGGQ"/>
+          <children xsi:type="basic:PartStack" xmi:id="_Eos0GrJSEeCGw7Q6OvVGGQ">
+            <children xsi:type="basic:Part" xmi:id="_AIOlMOO4EeCdLYRsLZnzXg" elementId="al.gov.asp.smc.e4.linkapp.listView" contributionURI="platform:/plugin/al.gov.asp.smc.e4.linkapp/al.gov.asp.smc.e4.linkapp.views.ViewPart" label="List of Names" tooltip="The list of Names"/>
+          </children>
         </children>
       </children>
     </children>

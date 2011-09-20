@@ -27,7 +27,7 @@ public class QuitHandler {
 			@Named(IServiceConstants.ACTIVE_SHELL) Shell shell)
 			throws InvocationTargetException, InterruptedException {
 		if (MessageDialog.openConfirm(shell, "Confirmation",
-				"Do you want to exit?")) {
+				"Do you wasikuro daku xit?")) {
 			workbench.close();
 		}
 	}

@@ -16,18 +16,25 @@ import javax.inject.Named;
 
 import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.core.di.annotations.Execute;
+import org.eclipse.e4.ui.model.application.MApplication;
+import org.eclipse.e4.ui.model.application.ui.basic.MWindow;
 import org.eclipse.e4.ui.services.IServiceConstants;
-import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.Shell;
 
 public class OpenHandler {
 
+//	@Inject DictionaryService dic;
+	
+	@SuppressWarnings("restriction")
 	@Execute
 	public void execute(
 			IEclipseContext context,
 			@Named(IServiceConstants.ACTIVE_SHELL) Shell shell)
 			throws InvocationTargetException, InterruptedException {
-		FileDialog dialog = new FileDialog(shell);
-		dialog.open();
+		
+		MApplication application = context.get(MApplication.class);
+		MWindow mWindow = application.getChildren().get(0);
+		mWindow.setX(mWindow.getX()+400);
+		
 	}
 }

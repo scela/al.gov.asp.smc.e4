@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="al.gov.asp.smc.e4.linkapp.model">
+   <implementation class="al.gov.asp.smc.e4.linkapp.model.internal.Waiter"/>
+   <service>
+      <provide interface="al.gov.asp.smc.e4.linkapp.model.outer.IPublic"/>
+   </service>
+</scr:component>

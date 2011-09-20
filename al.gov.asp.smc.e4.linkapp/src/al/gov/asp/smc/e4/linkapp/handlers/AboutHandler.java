@@ -20,15 +20,17 @@ import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.widgets.Shell;
 
-import outer.DictionaryService;
+import al.gov.asp.smc.e4.linkapp.model.outer.IPublic;
+
 
 public class AboutHandler {
 	
 //	@Inject private IService service;
-	@Inject private DictionaryService dic;
+	@Inject private IPublic iPublic;
 	
 	@Execute
 	public void execute(@Named(IServiceConstants.ACTIVE_SHELL) Shell shell) {
-		MessageDialog.openInformation(shell, "About", dic.getWelcomeMessage());
+		
+		MessageDialog.openInformation(shell, "About", iPublic.getPersons().toString());
 	}
 }

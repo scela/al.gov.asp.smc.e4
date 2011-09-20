@@ -38,7 +38,13 @@ public class DictionaryServiceImpl implements DictionaryService {
 
 	@Override
 	public String getWelcomeMessage() {
-		return "Welcome to OSGi heaven";
+		return "Welcome to OSGi hettttaven";
+	}
+
+	@Override
+	public boolean isSaveAllowed() {
+		
+		return getWelcomeMessage().equals("Welcome to OSGi heaven");
 	}
 
 }

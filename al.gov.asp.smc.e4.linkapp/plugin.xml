@@ -21,5 +21,13 @@
          </property>
       </product>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="al.gov.asp.smc.e4.linkapp.views.ViewPart"
+            id="al.gov.asp.smc.e4.linkapp.views.ViewPart"
+            name="New ViewPart">
+      </view>
+   </extension>
 
 </plugin>
